@@ -35,7 +35,7 @@ export function Contact() {
               WhatsApp
             </a>
             <a
-              href="mailto:guilherme@webuilder.gm"
+              href="mailto:guilherme@webuildergm.com.br"
               className="flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl bg-white/[0.05] text-white border border-white/[0.1] font-semibold text-sm hover:bg-white/[0.08] hover:border-white/[0.2] active:scale-95 transition-all"
             >
               <EmailIcon />

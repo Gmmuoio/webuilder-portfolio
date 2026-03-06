@@ -13,12 +13,12 @@ export const metadata: Metadata = {
   title: "webuilder.gm — Microsaas & Produtos IA",
   description:
     "Portfólio de microsaas por Guilherme Muoio. Produtos digitais focados, com IA onde faz sentido.",
-  metadataBase: new URL("https://webuilder.gm"),
+  metadataBase: new URL("https://webuildergm.com.br"),
   openGraph: {
     title: "webuilder.gm — Microsaas & Produtos IA",
     description:
       "Portfólio de microsaas por Guilherme Muoio. Produtos digitais focados, com IA onde faz sentido.",
-    url: "https://webuilder.gm",
+    url: "https://webuildergm.com.br",
     siteName: "webuilder.gm",
     locale: "pt_BR",
     type: "website",
