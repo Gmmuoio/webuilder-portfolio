@@ -24,6 +24,7 @@ export const PROJECTS: Project[] = [
     ],
     status: "building",
     stack: ["TypeScript", "GPT-4o", "Evolution API", "Supabase", "Stripe", "Next.js"],
+    url: "https://vivanda-gaia.vercel.app",
     screenshot: "/screenshots/vivanda.png",
   },
   {
@@ -49,7 +50,6 @@ export const PROJECTS: Project[] = [
     ],
     status: "live",
     stack: ["Next.js", "NestJS", "PostgreSQL", "Supabase", "Stripe"],
-    url: "https://instituto12.com.br",
     screenshot: "/screenshots/instituto12.png",
   },
   {
@@ -75,7 +75,7 @@ export const PROJECTS: Project[] = [
     ],
     status: "live",
     stack: ["Next.js", "NestJS", "PostgreSQL", "WhatsApp API", "Supabase"],
-    url: "https://conectapp.com.br",
+    url: "https://conselho-conectapp.vercel.app",
     screenshot: "/screenshots/conectapp.png",
   },
   {
@@ -95,13 +95,40 @@ export const PROJECTS: Project[] = [
       "Atribuição de cards a agentes de IA especializados",
       "Execução autônoma de tarefas com output auditável",
       "Integração com GitHub para abertura de PRs automáticos",
-      "Historico de ações do agente por card",
+      "Histórico de ações do agente por card",
       "Revisão e aprovação humana antes de avançar estágio",
       "Workspace colaborativo para times pequenos",
     ],
     status: "beta",
     stack: ["Next.js", "Claude API", "OpenAI", "Supabase", "GitHub API"],
+    url: "https://agent-kanban-chi.vercel.app",
     screenshot: "/screenshots/agent-kanban.png",
+  },
+  {
+    id: "bolso-a-dois",
+    name: "Bolso a Dois",
+    tagline: "Organize as finanças do casal pelo WhatsApp com IA",
+    description:
+      "Registre gastos conversando, veja dashboards automáticos e mantenha harmonia nas contas — e em casa.",
+    longDescription:
+      "Bolso a Dois é um assistente financeiro para casais que funciona diretamente no WhatsApp. Sem planilhas, sem esforço: basta mandar uma mensagem descrevendo o gasto e a IA transforma em dashboard em tempo real. Os dois parceiros têm visibilidade total das finanças compartilhadas, categorização automática de despesas, alertas de metas e relatórios mensais. O objetivo é eliminar a tensão financeira nos relacionamentos com uma ferramenta que cabe na rotina.",
+    problem:
+      "Casais têm dificuldade de manter controle financeiro conjunto — apps são complicados, planilhas exigem disciplina e a conversa sobre dinheiro vira fonte de conflito. O atrito de registrar cada gasto faz a maioria desistir em semanas.",
+    audience:
+      "Casais que dividem despesas e querem ter transparência financeira sem abrir mão da praticidade. Especialmente aqueles que já usam WhatsApp para se comunicar no dia a dia.",
+    features: [
+      "Registro de gastos por mensagem de texto no WhatsApp",
+      "Categorização automática via IA",
+      "Dashboard compartilhado em tempo real",
+      "Divisão de despesas entre o casal",
+      "Alertas de metas e orçamentos",
+      "Relatório financeiro mensal",
+      "Histórico completo pesquisável",
+    ],
+    status: "live",
+    stack: ["Next.js", "OpenAI", "Evolution API", "Supabase", "Stripe"],
+    url: "https://landing-page-bolso-a-dois.vercel.app",
+    screenshot: "/screenshots/seu-assistente.png",
   },
   {
     id: "em-breve",
