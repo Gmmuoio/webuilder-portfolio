@@ -28,31 +28,6 @@ export const PROJECTS: Project[] = [
     screenshot: "/screenshots/vivanda.png",
   },
   {
-    id: "instituto12",
-    name: "Instituto 12",
-    tagline: "Plataforma de gestão para institutos educacionais",
-    description:
-      "Sistema completo para gestão administrativa, financeira e pedagógica de institutos de ensino.",
-    longDescription:
-      "Instituto 12 é uma plataforma SaaS desenvolvida para modernizar a gestão de institutos educacionais. O sistema centraliza matrículas, controle financeiro, agenda de aulas, comunicação com alunos e responsáveis, e geração de relatórios. A proposta é substituir planilhas e processos manuais por um sistema integrado e intuitivo, com foco em institutos de pequeno e médio porte que precisam de eficiência sem complexidade excessiva.",
-    problem:
-      "Institutos educacionais de pequeno e médio porte gerenciam alunos, finanças e comunicação em ferramentas desconexas — planilhas, WhatsApp, e-mail manual. Isso gera retrabalho, erros e falta de visibilidade.",
-    audience:
-      "Diretores e coordenadores de institutos de ensino técnico, cursos livres e escolas de idiomas que buscam profissionalizar a gestão sem precisar de um ERP corporativo.",
-    features: [
-      "Gestão de matrículas e contratos digitais",
-      "Controle financeiro com cobrança automatizada",
-      "Agenda de aulas e controle de frequência",
-      "Portal do aluno e do responsável",
-      "Comunicação integrada por WhatsApp e e-mail",
-      "Dashboard com indicadores em tempo real",
-      "Relatórios exportáveis em PDF",
-    ],
-    status: "live",
-    stack: ["Next.js", "NestJS", "PostgreSQL", "Supabase", "Stripe"],
-    screenshot: "/screenshots/instituto12.png",
-  },
-  {
     id: "conselho-conectapp",
     name: "Conectapp",
     tagline: "Gestão digital para conselhos de classe e fiscalização",
